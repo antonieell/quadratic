@@ -1,6 +1,6 @@
 # quadratic
 
-A program to compute the real roots of a quadratic
+Computes the real roots of a quadratic equations
 
 Uses the math library
 
