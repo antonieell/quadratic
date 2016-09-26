@@ -1,7 +1,3 @@
-#quadratic
-# A program to calculate the real roots of a quadratic eqation.
-# Illustrates the use of the math library.
-
 import math
 
 def main():
@@ -12,6 +8,10 @@ def main():
     b = input("Enter B: ")
     c = input("Enter C: ")
 
+    a = float(a)
+    b = float(b)
+    c = float(c)
+
     discRoot = math.sqrt(b**2 - (4*a*c))
     root1 = (-b + discRoot)/(2*a)
     root2 = (-b - discRoot)/(2*a)
@@ -19,3 +19,4 @@ def main():
     print("The solutions are :" + str(root1) + " & " + str(root2))
 
 main()
+
